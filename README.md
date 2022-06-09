@@ -42,4 +42,8 @@ b). Further classification of detected traffic sign image among various classes 
 - The detection model localises the traffic signs in the video/image and produces a bounding box around it. The FPS of detection model was calculated to around 38. The model was trained to the highest of 78% mAP@0.5 
 - The classification model predicts the label of the given traffic sign. The inference time taken by the model is around 16 in Nvidia jetson nano. The model was evaluated to have an accuracy of 94.74% when tested against new datasets. 
 
+### **EXAMPLE OUTPUT**
+
+![Model_Output](Traffic_sign_recognition/output/output_10.png)
+![](Traffic_sign_recognition/output/output_1.png)
 
